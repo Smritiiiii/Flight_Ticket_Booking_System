@@ -1,0 +1,41 @@
+.ticket-details-container {
+    position: relative; /* Ensure relative positioning for child elements */
+}
+
+.background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* background: linear-gradient(to bottom, #7eb4ee, #65abf6);  */
+    z-index: -1;
+}
+
+/* Customize card styles */
+/* .card {
+    border: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.card-text {
+    margin-bottom: 10px;
+}
+
+.list-group-item {
+    border-top: none;
+}
+
+.list-group-item:first-child {
+    border-top: 1px solid rgba(0, 0, 0, 0.125);
+} */

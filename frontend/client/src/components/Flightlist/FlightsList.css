@@ -1,0 +1,98 @@
+.ticket-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.ticket {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+  width: 60%;
+  box-shadow: 0 4px 8px rgba(4, 4, 4, 0.1);
+  transition: box-shadow 0.3s ease;
+}
+
+.ticket:hover {
+  box-shadow: 0 8px 16px rgba(11, 11, 11, 0.2);
+}
+
+.ticket-header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.flight {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.airline-logo {
+  width: 60px;
+  height: 60px;
+  margin-right: 20px;
+}
+
+.flight-info {
+  flex: 1;
+}
+
+.sort-menu {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  cursor: pointer;
+}
+
+.sort-options {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 10px;
+  position: absolute;
+  top: 40px;
+  left: 0;
+  z-index: 1;
+}
+
+.sort-option {
+  cursor: pointer;
+  margin-bottom: 5px;
+}
+
+/* Layover section */
+.layovers {
+  margin-top: 20px;
+}
+
+.layover-title {
+  font-weight: bold;
+}
+
+.layover-item {
+  margin-top: 10px;
+}
+
+/* Book Now Button */
+.book-now-button {
+  text-decoration: none;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.book-now-button:hover {
+  background-color: #0056b3;
+}

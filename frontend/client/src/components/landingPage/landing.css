@@ -1,0 +1,80 @@
+.landing-container {
+    position: relative;
+}
+
+.image-container {
+    position: relative;
+    height: 100vh;
+}
+
+.image {
+    height: 100%;
+    background-position: top; 
+}
+
+.navbar {
+    position: fixed; 
+    top: 0; 
+    width: 100%; 
+    background-color: rgb(160, 226, 242);
+    text-align: center;
+    box-sizing: border-box; 
+    font-family: 'Oswald', sans-serif;
+    color: #ffffff; 
+   
+    
+}
+
+.brand {
+    font-size: 24px;
+}
+
+.login-icon {
+    position: absolute;
+    top: 50%;
+    right: 20px; 
+    transform: translateY(-50%);
+    font-size: 24px;
+    cursor: pointer;
+}
+
+
+.slogan-container {
+    position: absolute;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.main-slogan {
+    font-size: 36px; 
+    font-weight: bold;
+    color: #fff; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+}
+
+.sub-slogan {
+    font-size: 24px; 
+    font-weight: lighter; 
+    color: rgba(255, 255, 255, 0.7); 
+    margin-top: 10px; 
+}
+
+.get-started-btn {
+    position: fixed; 
+    bottom: 2%;
+    right: 3%;
+    font-size: 14px; 
+    padding: 8px 16px; 
+    background-color: rgb(67, 155, 182);
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    z-index: 999;
+}
+
+.get-started-btn:hover {
+    background-color: #5b969d;
+    color: rgb(123, 174, 187);
+}

@@ -1,0 +1,62 @@
+.homepage-body {
+  background-image: url('flightt.jpg'); 
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.container {
+  margin-top: 5%;
+  padding: 30px;
+  max-width: 600px;
+  border-radius: 30px;
+  background-color: rgba(79, 160, 177, 0.8); 
+ 
+}
+
+.form-label {
+  display: block;
+  margin-bottom: 5px;
+  color: #fff; 
+}
+
+.form-control {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.form-control:focus {
+  outline: none;
+  border-color: #007bff; 
+}
+
+.btn-primary {
+  background-color: #398fea;
+  border-color: #398fea;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-primary:disabled {
+  background-color: #a8a8a8; 
+  border-color: #a8a8a8;
+  cursor: not-allowed;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3; 
+}
+
+.navbar-brand {
+  color: #737171; 
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.navbar {
+  padding: 10px;
+}
